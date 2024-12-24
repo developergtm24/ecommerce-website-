@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>E-commerce PhotoSchool</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="photos/logo.png" alt="" / width="125px">
+                </a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Contacts</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html">
+
+                <img src="images/cart.png" alt="" width="30px" height="30px" />
+            </a>
+            <img src="images/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+
+
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default Sorting</option>
+                <option>Price Low to High</option>
+                <option>Price High to Low</option>
+                <option>By Popularity</option>
+                <option>By Rating</option>
+                <option>By Sale</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a href="product-details.html">
+
+                    <img src="./photos/canonmarkiii.jpg" alt="" />
+                </a>
+                <a href="product-details.html">
+
+                    <h4>CANON EOS 1D X Mark III- body</h4>
+                </a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>CZK</p> 189 990</p>
+            </div>
+            <div class="col-4">
+                <img src="./photos/Nikond6.jpg" alt="" />
+                <h4>Nikon D6</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>CZK 183 990</p>
+            </div>
+            <div class="col-4">
+                <img src="./photos/sonylen.png" alt="" />
+                <h4>SAMYANG 35 mm f/1,8 AF FE pro Sony E</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>CZK 9 290</p>
+            </div>
+            <div class="col-4">
+                <img src="./photos/triport.jpg" alt="" />
+                <h4>ROLLEI C6i</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>CZK 4 990</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="./photos/panasonic_hc-x1.jpg" alt="" />
+                <h4>PANASONIC HC-X1</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>CZK 72 990</p>
+            </div>
+            <div class="col-4">
+                <img src="./photos/panasonic_HC_VX1.jpg" alt="" />
+                <h4>PANASONIC HC-VX1</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>CZK 15 990</p>
+            </div>
+            <div class="col-4">
+                <img src="./photos//djimavic2zoom.jpg" alt="" />
+                <h4>DJI MAVIC 2 Zoom</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>CZK 30 990</p>
+            </div>
+            <div class="col-4">
+                <img src="./photos/zeissloxia.jpg" alt="" />
+                <h4>ZEISS Loxia 85 mm f/2,4 Sonnar pro Sony E</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>CZK 30 590</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="./photos/tokina.jpg" alt="" />
+                <h4>TOKINA 16-28 mm T3 Cinema ATX pro Canon EF</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>CZK 77 990</p>
+            </div>
+            <div class="col-4">
+                <img src="/photos/canonc300.jpg" alt="" />
+                <h4>CANON EOS C300 Mark III</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>CZK 327 000</p>
+            </div>
+            <div class="col-4">
+                <img src="./photos/gitzo.jpg" alt="" />
+                <h4>GITZO Adventury 30 L </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>CZK 3 990,</p>
+            </div>
+            <div class="col-4">
+                <img src="/photos/sonyPxW-FX9.jpg" alt="" />
+                <h4>SONY PXW-FX9</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>CZK 333 990</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="photos/Nanlite-LitoLite-5C-1.jpg" alt="" />
+                <h4>NANLITE LitoLite 5C RGBWW LED</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>CZK 2 490</p>
+            </div>
+            <div class="col-4">
+                <img src="/photos/lumecubedualpack.jpeg" alt="" />
+                <h4>LUME CUBE Dual Pack</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>CZK 3 990,</p>
+            </div>
+            <div class="col-4">
+                <img src="/photos/zhiyun.jfif" alt="" />
+                <h4>ZHIYUN WEEBILL S </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>CZK 9 990,</p>
+            </div>
+            <div class="col-4">
+                <img src="/photos/sonyziss.jpg" alt="" />
+                <h4>SONY DSC-RX0</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>CZK 16 980</p>
+            </div>
+        </div>
+
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>&#8594;</span>
+        </div>
+    </div>
+    </div>
+
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download App for Andriod and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="/photos/logo2.png" alt="">
+                    <p>Our purpose is to give the best quality product to the customer and bring them back and make them happy.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright &copy; 2021</p>
+        </div>
+    </div>
+
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            } else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+
+</body>
+
+</html>
